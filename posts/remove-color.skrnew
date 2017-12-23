@@ -1,0 +1,164 @@
+---
+title: 【修理辞典】反射板にある楕円形状シミの取り方
+author: magesusu
+type: post
+date: 2016-06-16T03:24:57+00:00
+url: /【修理辞典】反射板にある楕円形状シミの取り方
+featured_image: /wp-content/uploads/2016/06/ilovepdf_com-9.jpg
+views:
+  - 618
+snapTW:
+  - 's:176:"a:1:{i:0;a:5:{s:12:"rpstPostIncl";s:7:"nxsi0tw";s:11:"isPrePosted";s:1:"1";s:8:"isPosted";s:1:"1";s:4:"pgID";s:18:"767941307872391168";s:5:"pDate";s:19:"2016-08-23 04:27:30";}}";'
+categories:
+  - ケース別に見る修理技
+  - ゲームウオッチ
+tags:
+  - ゲームアンドウオッチ
+  - ゲームウオッチ
+  - 修理
+
+---
+<div class="wc-shortcodes-row wc-shortcodes-item wc-shortcodes-clearfix">
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-one-third wc-shortcodes-column-first ">
+    <p>
+      <a href="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-9.jpg"><img class="aligncenter wp-image-119 size-medium" src="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-9-300x203.jpg?fit=300%2C203" alt="ilovepdf_com-9" srcset="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-9.jpg?resize=300%2C203 300w, //magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-9.jpg?w=490 490w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+    </p>
+  </div>
+  
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-two-third wc-shortcodes-column-last ">
+    <p>
+      いちばん、よくみかけるのがこのタイプの症状です。
+    </p>
+    
+    <p>
+      本家のゲームウオッチのジャンク品などから専用の反射版を流用する事をお勧めします。
+    </p>
+  </div>
+</div>
+
+<!--more-->
+
+<div id="toc_container" class="no_bullets">
+  <p class="toc_title">
+    Contents
+  </p>
+  
+  <ul class="toc_list">
+    <li>
+      <a href="#i"><span class="toc_number toc_depth_1">1</span> 反射板は入所困難、ゲームウオッチにどれも合わない。</a>
+    </li>
+    <li>
+      <a href="#i-2"><span class="toc_number toc_depth_1">2</span> 反射板は、本家のものを取り付けよう！</a><ul>
+        <li>
+          <a href="#i-3"><span class="toc_number toc_depth_2">2.1</span> 反射板部品取り用チェックリスト</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li>
+      <a href="#i-4"><span class="toc_number toc_depth_1">3</span> ダブルスクリーン反射板の問題解決</a>
+    </li>
+  </ul>
+</div>
+
+### <span id="i">反射板は入所困難、ゲームウオッチにどれも合わない。</span>
+
+<div class="wc-shortcodes-row wc-shortcodes-item wc-shortcodes-clearfix">
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-one-half wc-shortcodes-column-first ">
+    <p style="padding-left: 30px;">
+      せっかくのコレクションもこれだと、ちょっと残念ですよね。
+    </p>
+    
+    <p style="padding-left: 30px;">
+      作業的には簡単に交換はできるのですが、綺麗な反射板はかなり貴重な部品です。<br /> 偏光版のように交換できる部品が販売されていれば良いのですが、わたしの知る限りでは、単品で手に入る方法は残念ながら見つけられませんでした。
+    </p>
+    
+    <p style="padding-left: 30px;">
+      任天堂のサポートセンターにも、手に入れる方法を尋ねてはみましたが、｢わかりません｣という回答でした。
+    </p>
+    
+    <p style="padding-left: 30px;">
+      ですので、反射板は他の時計等から流用できないものかと、いくつか試しましたが、光源との角度によって正しく表示されない状態になってしまうものばかりで、いまだに合うものがみつけられません。
+    </p>
+  </div>
+  
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-one-half wc-shortcodes-column-last ">
+    <div id="attachment_147" style="width: 310px" class="wp-caption aligncenter">
+      <a href="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-7.jpg"><img class="wp-image-147 size-medium" src="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-7-300x207.jpg?fit=300%2C207" alt="▲時計から流用。なんか薄いです。" srcset="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-7.jpg?resize=300%2C207 300w, //magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-7.jpg?w=470 470w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+      
+      <p class="wp-caption-text">
+        ▲時計から流用。なんか薄いです。
+      </p>
+    </div>
+    
+    <div id="attachment_148" style="width: 310px" class="wp-caption aligncenter">
+      <a href="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-8.jpg"><img class="wp-image-148 size-medium" src="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-8-300x209.jpg?fit=300%2C209" alt="▲専用の反射板。くっきりです。" srcset="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-8.jpg?resize=300%2C209 300w, //magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-8.jpg?w=465 465w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+      
+      <p class="wp-caption-text">
+        ▲専用の反射板。くっきりです。
+      </p>
+    </div>
+  </div>
+</div>
+
+### <span id="i-2">反射板は、本家のものを取り付けよう！</span>
+
+<p style="padding-left: 30px;">
+  角度によっては、時計から取った反射板でも全く気にならなくなるのですが、せっかくなら、角度などを気にせずに遊びたいですので、本家のゲームウオッチのジャンク品などから専用の反射版を流用する事をお勧めします。
+</p>
+
+<p style="padding-left: 30px;">
+  次のような商品をいくつかストックしておきましょう。
+</p>
+
+<div class="wc-shortcodes-row wc-shortcodes-item wc-shortcodes-clearfix">
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-one-half wc-shortcodes-column-first ">
+    <p style="padding-left: 30px;">
+      マルチスクリーンなら二画面ですから二台分の反射板が手に入りますのでお得です。もちろん、反射板がきれいでなければ意味がありませんので入札時にはご注意ください。<br /> よく写真を見て入札しましょう。
+    </p>
+    
+    <p style="padding-left: 30px;">
+      もともと任天堂ＤＳのように本体を二つ折りして画面が隠れるマルチスクリーンは、<br /> ２つ折りの状態で保管されていれば日光などにさらされることが少ないせいか、スクリーンが一つだけのタイプより、反射板と偏光版の状態がよいものが多いようです。
+    </p>
+  </div>
+  
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-one-half wc-shortcodes-column-last ">
+    <div style="background: #EFEFEF; width: 80%; border: 1px solid #424242; height: 100％; margin: 0 auto; padding: 10px;">
+      <h4>
+        <span id="i-3">反射板部品取り用チェックリスト</span>
+      </h4>
+      
+      <p>
+        ☑ マルチスクリーン版ゲームウオッチ<br /> （ドンキーコング、ミッキードナルドなど）<br /> ☑ ゲームボタン脇金属パネル欠品<br /> ☑ 画面上部のフタの爪が折れている<br /> ☑ 電池ブタ欠品<br /> ☑ 動作未確認<br /> 運が良ければ1000～1500円で<br /> 安く購入出来ちゃうゾ！(送料別)<br /> 二画面で2つ取れるし、フタがあって日光に当たりにくいから反射板の状態もバッチリ
+      </p>
+    </div>
+  </div>
+</div>
+
+### <span id="i-4">ダブルスクリーン反射板の問題解決</span>
+
+<p style="padding-left: 30px;">
+  マルチスクリーン版から外した偏光版はワイドスクリーン版より上下が若干短いため、このままでは画面全体を覆うことができません。<br /> しかし、表側の縁のおかげで表側から見ると、画面全体を覆えます。反射板を真ん中に配置し裏に両面テープで貼り、ズレない固定をしましょう。
+</p>
+
+<div class="wc-shortcodes-row wc-shortcodes-item wc-shortcodes-clearfix">
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-one-half wc-shortcodes-column-first ">
+    <div id="attachment_121" style="width: 310px" class="wp-caption aligncenter">
+      <a href="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-12.jpg"><img class="wp-image-121 size-medium" src="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-12-300x218.jpg?fit=300%2C218" alt="▲反射板の大きさが違います。" srcset="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-12.jpg?resize=300%2C218 300w, //magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-12.jpg?w=411 411w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+      
+      <p class="wp-caption-text">
+        ▲反射板の大きさが違います。
+      </p>
+    </div>
+  </div>
+  
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-one-half wc-shortcodes-column-last ">
+    <div id="attachment_120" style="width: 310px" class="wp-caption aligncenter">
+      <a href="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-10.jpg"><img class="wp-image-120 size-medium" src="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-10-300x177.jpg?fit=300%2C177" alt="▲うまく配置すれば小さくても大丈夫。" srcset="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-10.jpg?resize=300%2C177 300w, //magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-10.jpg?w=501 501w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+      
+      <p class="wp-caption-text">
+        ▲うまく配置すれば小さくても大丈夫。
+      </p>
+    </div>
+  </div>
+</div>

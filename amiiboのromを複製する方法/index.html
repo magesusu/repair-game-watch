@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="theme-color" content="#263238">
+
+<meta name="generator" content="Hugo 0.31.1" />
+
+<link rel="apple-touch-icon" href="https://example.com/images/logo.png">
+
+
+<link rel="canonical" href="https://example.com/amiibo%E3%81%AErom%E3%82%92%E8%A4%87%E8%A3%BD%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">
+
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Lobster%7cLato:400,700" rel="stylesheet">
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>AmiiboのROMを複製する方法 - MAGE HACK マゲハック</title>
+    
+
+<link rel="amphtml" type="text/html" href="https://example.com/amp/amiibo%E3%81%AErom%E3%82%92%E8%A4%87%E8%A3%BD%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">
+
+<meta name="description" content="&lt;div id=&#34;toc_container&#34; class=&#34;no_bullets&#34;&gt;  &lt;p class=&#34;toc_title&#34;&gt;    Contents  &lt;/p&gt;    &lt;ul class=&#34;toc_list&#34;&gt;    &lt;li&gt;      &lt;a href=&#34;#i&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;1&lt;/span&gt; チュートリアルの目的&lt;/a&gt;&lt;ul&gt;        &lt;li&gt;          &lt;a href=&#34;#i-2&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;1.1&lt;/span&gt; 注意事項&lt;/a&gt;        &lt;/li&gt;      &lt;/ul&gt;    &lt;/li&gt;        &lt;li&gt;      &lt;a href=&#34;#i-3&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;2&lt;/span&gt; 必要な物&lt;/a&gt;    &lt;/li&gt;    &lt;li&gt;      &lt;a href=&#34;#i-4&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;3&lt;/span&gt; 導入方法&lt;/a&gt;    &lt;/li&gt;    &lt;li&gt;      &lt;a href=&#34;#FAQ&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;4&lt;/span&gt; 困ったときのFAQ&lt;/a&gt;&lt;ul&gt;        &lt;li&gt;          &lt;a href=&#34;#QTagMo&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.1&lt;/span&gt; Q.TagMoの画面が動画内のと違うのですが…&lt;/a&gt;        &lt;/li&gt;        &lt;li&gt;          &lt;a href=&#34;#QNFC&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.2&lt;/span&gt; Q.NFCタグを端末にかざしても何も起きません。&lt;/a&gt;        &lt;/li&gt;        &lt;li&gt;          &lt;a href=&#34;#QAPK&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.3&lt;/span&gt; Q.APKをインストールしようとすると「インストールはブロックされました」などと­­出てインストールできません。&lt;/a&gt;        &lt;/li&gt;        &lt;li&gt;          &lt;a href=&#34;#QAmiiboNTAG215Amiibo&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.4&lt;/span&gt; Q.一度Amiiboを書き込んだNTAG215を他のAmiiboに変えられますか­­。&lt;/a&gt;        &lt;/li&gt;      &lt;/ul&gt;    &lt;/li&gt;  &lt;/ul&gt;&lt;/div&gt;&lt;h3 id=&#34;span-id-i-チュートリアルの目的-span&#34;&gt;&lt;span id=&#34;i&#34;&gt;チュートリアルの目的&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;人形の部分では無く、データーの部分の作成です。&lt;/p&gt;&lt;p&gt;バックアップ目的など激安(1枚100円以下程度)で作成できます。&lt;/p&gt;&lt;h4 style=&#34;padding-left: 30px;&#34;&gt;  &lt;span id=&#34;i-2&#34;&gt;注意事項&lt;/span&gt;&lt;/h4&gt;&lt;p style=&#34;padding-left: 30px;&#34;&gt;  Amiiboのbinファイルを落としてくる行為はやめましょう。必ず自分のAmiiboで行って下さい。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+
+<meta property="og:title" content="AmiiboのROMを複製する方法 - MAGE HACK マゲハック">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://example.com/amiibo%E3%81%AErom%E3%82%92%E8%A4%87%E8%A3%BD%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">
+<meta property="og:image" content="https://example.com/images/default.png">
+<meta property="og:site_name" content="MAGE HACK マゲハック">
+<meta property="og:description" content="&lt;div id=&#34;toc_container&#34; class=&#34;no_bullets&#34;&gt;  &lt;p class=&#34;toc_title&#34;&gt;    Contents  &lt;/p&gt;    &lt;ul class=&#34;toc_list&#34;&gt;    &lt;li&gt;      &lt;a href=&#34;#i&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;1&lt;/span&gt; チュートリアルの目的&lt;/a&gt;&lt;ul&gt;        &lt;li&gt;          &lt;a href=&#34;#i-2&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;1.1&lt;/span&gt; 注意事項&lt;/a&gt;        &lt;/li&gt;      &lt;/ul&gt;    &lt;/li&gt;        &lt;li&gt;      &lt;a href=&#34;#i-3&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;2&lt;/span&gt; 必要な物&lt;/a&gt;    &lt;/li&gt;    &lt;li&gt;      &lt;a href=&#34;#i-4&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;3&lt;/span&gt; 導入方法&lt;/a&gt;    &lt;/li&gt;    &lt;li&gt;      &lt;a href=&#34;#FAQ&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;4&lt;/span&gt; 困ったときのFAQ&lt;/a&gt;&lt;ul&gt;        &lt;li&gt;          &lt;a href=&#34;#QTagMo&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.1&lt;/span&gt; Q.TagMoの画面が動画内のと違うのですが…&lt;/a&gt;        &lt;/li&gt;        &lt;li&gt;          &lt;a href=&#34;#QNFC&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.2&lt;/span&gt; Q.NFCタグを端末にかざしても何も起きません。&lt;/a&gt;        &lt;/li&gt;        &lt;li&gt;          &lt;a href=&#34;#QAPK&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.3&lt;/span&gt; Q.APKをインストールしようとすると「インストールはブロックされました」などと­­出てインストールできません。&lt;/a&gt;        &lt;/li&gt;        &lt;li&gt;          &lt;a href=&#34;#QAmiiboNTAG215Amiibo&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.4&lt;/span&gt; Q.一度Amiiboを書き込んだNTAG215を他のAmiiboに変えられますか­­。&lt;/a&gt;        &lt;/li&gt;      &lt;/ul&gt;    &lt;/li&gt;  &lt;/ul&gt;&lt;/div&gt;&lt;h3 id=&#34;span-id-i-チュートリアルの目的-span&#34;&gt;&lt;span id=&#34;i&#34;&gt;チュートリアルの目的&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;人形の部分では無く、データーの部分の作成です。&lt;/p&gt;&lt;p&gt;バックアップ目的など激安(1枚100円以下程度)で作成できます。&lt;/p&gt;&lt;h4 style=&#34;padding-left: 30px;&#34;&gt;  &lt;span id=&#34;i-2&#34;&gt;注意事項&lt;/span&gt;&lt;/h4&gt;&lt;p style=&#34;padding-left: 30px;&#34;&gt;  Amiiboのbinファイルを落としてくる行為はやめましょう。必ず自分のAmiiboで行って下さい。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="MAGE HACK マゲハック">
+<meta name="twitter:url" content="https://example.com/amiibo%E3%81%AErom%E3%82%92%E8%A4%87%E8%A3%BD%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">
+<meta name="twitter:title" content="AmiiboのROMを複製する方法 - MAGE HACK マゲハック">
+<meta name="twitter:description" content="&lt;div id=&#34;toc_container&#34; class=&#34;no_bullets&#34;&gt;  &lt;p class=&#34;toc_title&#34;&gt;    Contents  &lt;/p&gt;    &lt;ul class=&#34;toc_list&#34;&gt;    &lt;li&gt;      &lt;a href=&#34;#i&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;1&lt;/span&gt; チュートリアルの目的&lt;/a&gt;&lt;ul&gt;        &lt;li&gt;          &lt;a href=&#34;#i-2&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;1.1&lt;/span&gt; 注意事項&lt;/a&gt;        &lt;/li&gt;      &lt;/ul&gt;    &lt;/li&gt;        &lt;li&gt;      &lt;a href=&#34;#i-3&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;2&lt;/span&gt; 必要な物&lt;/a&gt;    &lt;/li&gt;    &lt;li&gt;      &lt;a href=&#34;#i-4&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;3&lt;/span&gt; 導入方法&lt;/a&gt;    &lt;/li&gt;    &lt;li&gt;      &lt;a href=&#34;#FAQ&#34;&gt;&lt;span class=&#34;toc_number toc_depth_1&#34;&gt;4&lt;/span&gt; 困ったときのFAQ&lt;/a&gt;&lt;ul&gt;        &lt;li&gt;          &lt;a href=&#34;#QTagMo&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.1&lt;/span&gt; Q.TagMoの画面が動画内のと違うのですが…&lt;/a&gt;        &lt;/li&gt;        &lt;li&gt;          &lt;a href=&#34;#QNFC&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.2&lt;/span&gt; Q.NFCタグを端末にかざしても何も起きません。&lt;/a&gt;        &lt;/li&gt;        &lt;li&gt;          &lt;a href=&#34;#QAPK&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.3&lt;/span&gt; Q.APKをインストールしようとすると「インストールはブロックされました」などと­­出てインストールできません。&lt;/a&gt;        &lt;/li&gt;        &lt;li&gt;          &lt;a href=&#34;#QAmiiboNTAG215Amiibo&#34;&gt;&lt;span class=&#34;toc_number toc_depth_2&#34;&gt;4.4&lt;/span&gt; Q.一度Amiiboを書き込んだNTAG215を他のAmiiboに変えられますか­­。&lt;/a&gt;        &lt;/li&gt;      &lt;/ul&gt;    &lt;/li&gt;  &lt;/ul&gt;&lt;/div&gt;&lt;h3 id=&#34;span-id-i-チュートリアルの目的-span&#34;&gt;&lt;span id=&#34;i&#34;&gt;チュートリアルの目的&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;人形の部分では無く、データーの部分の作成です。&lt;/p&gt;&lt;p&gt;バックアップ目的など激安(1枚100円以下程度)で作成できます。&lt;/p&gt;&lt;h4 style=&#34;padding-left: 30px;&#34;&gt;  &lt;span id=&#34;i-2&#34;&gt;注意事項&lt;/span&gt;&lt;/h4&gt;&lt;p style=&#34;padding-left: 30px;&#34;&gt;  Amiiboのbinファイルを落としてくる行為はやめましょう。必ず自分のAmiiboで行って下さい。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta name="twitter:image" content="https://example.com/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https://example.com/"
+    },
+    "headline": "AmiiboのROMを複製する方法 - MAGE HACK マゲハック",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://example.com/images/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2016-06-15T02:25:27JST",
+    "dateModified": "2016-06-15T02:25:27JST",
+    "author": {
+      "@type": "Person",
+      "name": "MAGE HACK マゲハック"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "MAGE HACK マゲハック",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://example.com/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "<div id="toc_container" class="no_bullets">
+  <p class="toc_title">
+    Contents
+  </p>
+  
+  <ul class="toc_list">
+    <li>
+      <a href="#i"><span class="toc_number toc_depth_1">1</span> チュートリアルの目的</a><ul>
+        <li>
+          <a href="#i-2"><span class="toc_number toc_depth_2">1.1</span> 注意事項</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li>
+      <a href="#i-3"><span class="toc_number toc_depth_1">2</span> 必要な物</a>
+    </li>
+    <li>
+      <a href="#i-4"><span class="toc_number toc_depth_1">3</span> 導入方法</a>
+    </li>
+    <li>
+      <a href="#FAQ"><span class="toc_number toc_depth_1">4</span> 困ったときのFAQ</a><ul>
+        <li>
+          <a href="#QTagMo"><span class="toc_number toc_depth_2">4.1</span> Q.TagMoの画面が動画内のと違うのですが…</a>
+        </li>
+        <li>
+          <a href="#QNFC"><span class="toc_number toc_depth_2">4.2</span> Q.NFCタグを端末にかざしても何も起きません。</a>
+        </li>
+        <li>
+          <a href="#QAPK"><span class="toc_number toc_depth_2">4.3</span> Q.APKをインストールしようとすると「インストールはブロックされました」などと­­出てインストールできません。</a>
+        </li>
+        <li>
+          <a href="#QAmiiboNTAG215Amiibo"><span class="toc_number toc_depth_2">4.4</span> Q.一度Amiiboを書き込んだNTAG215を他のAmiiboに変えられますか­­。</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<h3 id="span-id-i-チュートリアルの目的-span"><span id="i">チュートリアルの目的</span></h3>
+
+<p>人形の部分では無く、データーの部分の作成です。</p>
+
+<p>バックアップ目的など激安(1枚100円以下程度)で作成できます。</p>
+
+<h4 style="padding-left: 30px;">
+  <span id="i-2">注意事項</span>
+</h4>
+
+<p style="padding-left: 30px;">
+  Amiiboのbinファイルを落としてくる行為はやめましょう。必ず自分のAmiiboで行って下さい。
+</p>
+
+<p></p>"
+  }
+</script>
+
+
+    <style>
+      html { font-size: 18px; background-color: rgba(236,239,241,.5);}@media (max-width: 768px) { html { font-size: 15px; }}body { color: #333; font-family: 'Roboto Slab','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif; font-feature-settings : "palt"; font-size: inherit; line-height: 1rem; margin: 0; padding: 0;}h1, h2, h3, h4, h5 ,h6 { font-size: 1rem; font-weight: 700; line-height: 1rem; margin: 0;}hr { border: 0; border-top: 1px dashed #cfd8dc; margin: 1rem 0;}p { margin: 0; line-height: 1rem;}a { color: #2196f3; text-decoration: none; transition-duration: .3s;}ul, ol { margin: 0; padding: 0;}table { border-collapse: collapse;}th, td { font-size: .8rem; padding: .5rem;}tr { border-bottom: 1px dashed #ddd;}/* Layouts */main,aside { display: block;}main { padding: 1rem 0 3rem 0; }aside.h { padding: 3rem 0; }main.f,aside.f { background-color: #333; border-top: 2px dashed #fff; border-bottom: 2px dashed #fff;}.l-container { position: relative; max-width: 68rem; margin: 0 auto; padding: 0 1rem;}.l-container.thin { max-width: 44rem;}.l-header { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); padding: 1rem 0; text-align: center;}.l-header .description { margin-top: .5rem; font-size: .8rem;}.l-footer { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); font-size: .6rem; font-weight: 700; padding: 1rem 0;}@media (max-width: 768px) { .l-sidebar { margin-top: 4rem; }}.mrow { margin: 0 -1rem; overflow: hidden;}.mcol { box-sizing: border-box; float: left; padding: 0 1rem;}.c6 { width: 50%; }.c4 { width: 33.26323833%; }.c8 { width: 66.66666%; }@media (max-width: 768px) { .mcol { width: 100%; float: none; }}.logo a { font-size: 1.4rem; line-height: 1.5rem; font-weight: 700; color: #333;}.articles { margin: -1rem 0; margin-bottom: 1rem;}.articles.sm { margin: -.5rem 0; margin-bottom: 0;}article { border-radius: 4px; overflow: hidden;}article.li { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); height: 20rem; overflow: hidden; margin: 1rem 0;}article.li > a { display: block; color: #333;}article.li .inner { padding: 1rem;}article.li .thumb { height: 8rem;}article.li .title { color: #333; font-size: 1.2rem; line-height: 1.5rem; margin-bottom: .5rem;}article.li .summary { font-size: .8rem; height: 6rem; overflow: hidden; margin-top: 1rem;}article.li .summary::after { content: '...';}article.lism { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); margin: .5rem 0;}article.lism::after { content: ''; display: block; clear: both;}article.lism > a { display: block; color: #333;}article.lism .inner { display: table-cell; vertical-align: middle; height: 5rem; padding: 0 .75rem;}article.lism .thumb { width: 5rem; height: 5rem; float: left;}article.lism .title { font-weight: 700; font-size: .8rem; margin-bottom: .25rem;}article.sn { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); margin-bottom: 1rem;}article.sn .thumb { height: 20rem;}@media (max-width: 768px) { article.sn .thumb { height: 10rem; }}article.sn > .article-header,article.sn > .article-body,article.sn .article-footer { padding: 2rem;}article.sn > .article-body { padding: 0 2rem;}@media (max-width: 768px) { article.sn > .article-header, article.sn > .article-body, article.sn .article-footer { padding: 1rem; } article.sn > .article-body { padding: 0 1rem; }}article.sn > .article-header .title { font-size: 1.8rem; line-height: 2rem; margin-bottom: .5rem;}@media (max-width: 768px) { article.sn > .article-header .title { font-size: 1.4rem; line-height: 1.5rem; }}article.sn > .article-header .facts { margin-bottom: 1rem;}article.sn > .article-body { margin-bottom: 1.5rem;}article.sn > .article-body h2 { border-bottom: .25rem solid #333; font-size: 1.2rem; line-height: 1.5rem; margin: 1.5rem 0; padding: .5rem 0;}article.sn > .article-body h3 { border-left: .5rem solid #333; line-height: 1.5rem; margin: 1.5rem 0; padding: .125rem .5rem;}article.sn > .article-body ul,article.sn > .article-body ol { margin: 1.5rem 0; padding-left: 1.5rem;}article.sn > .article-body li { padding-bottom: .5rem; line-height: 1.5rem;}article.sn > .article-body li:last-child { padding-bottom: 0;}article.sn > .article-body p { margin: 1rem 0; line-height: 1.5rem;}article.sn > .article-body strong,article.sn > .article-body em { font-style: normal; font-weight: 700;}article.sn > .article-body strong { box-shadow: 0 -.5rem 0 0 #ffc107 inset;}article.sn > .article-body em { color: #8bc34a;}article.sn > .article-body code,article.sn > .article-body pre { font-family: Menlo, Consolas, monospace; font-size: .7rem;}article.sn > .article-body pre { background-color: #333; color: #fff; line-height: 1rem; margin: 1.5rem -2rem; overflow: auto;}@media (max-width: 768px) { article.sn > .article-body pre { margin: 1.5rem -1rem; }}article.sn > .article-body pre > code { display: block; padding: 1rem 2rem;}@media (max-width: 768px) { article.sn > .article-body pre > code { padding: 1rem; }}article.sn > .article-body p code { background-color: #eceff1; color: #333; border-radius: 4px; margin: 0 .25rem; padding: .375rem; white-space: nowrap;}article.sn > .article-body blockquote { position: relative; border-left: .25rem solid #333; font-size: .8rem; padding: .125rem 1rem; margin: 1.5rem 0;}@media (max-width: 768px) { article.sn > .article-body blockquote { font-size: 1rem; }}article.sn > .article-body blockquote p { margin: .5rem 0; line-height: 1rem;}article.sn > .article-body figure { margin: 1.5rem 0;}article.sn > .article-body figure img,article.sn > .article-body figure amp-img { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); max-width: 100%;}article.sn > .article-body figcaption { color: #cfd8dc; font-size: .8rem; font-weight: 700; margin-top: .5rem;}.facts li { display: inline; font-size: .8rem; margin-right: 1rem;}.facts i { color: #cfd8dc; margin-right: .5em;}.facts.sm li { font-size: .7rem;}.sections.sidebar { margin: -1rem 0;}.sections.footer { margin: -1rem 0;}section.sidebar { margin: 2rem 0;}section.sidebar > header { font-size: .8rem; font-weight: 700; letter-spacing: 4px; text-align: center; margin: 1.5rem 0;}section.footer { margin: 1rem 0;}section.footer > header { font-size: .8rem; margin: .5rem 0;}section.footer > header::before { content: "- ";}section.footer > header a { font-weight: 700; color: #333; text-decoration: underline;}.terms { margin: -.25rem;}.terms li { display: inline-block;}.terms a { display: block; float: left; background-color: #333; border-radius: 4px; color: #fff; font-size: .7rem; margin: .25rem; padding: 0 .75rem; line-height: 1.75rem;}.paging { text-align: center; padding: 1rem 0;}.paging a { display: inline-block; background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); border-radius: 4px; color: #333; padding: 0 1rem; line-height: 3rem;}.page-title { text-align: center; margin: 1rem 0;}.page-title::after { content: ''; display: block; border-bottom: .25rem solid #333; width: 3rem; margin: 1.5rem auto;}.page-title > .title { font-size: 1.2rem; line-height: 1.5rem;}/* Parts:breadcrumb */.crumb ol { text-overflow: ellipsis; color: #cfd8dc; white-space: nowrap; overflow: hidden;}.crumb li { display: inline; font-size: .8rem;}.crumb li::after { content: '›'; margin: 0 .25rem 0 .5rem;}.crumb li:last-child::after { content: '';}.crumb a { color: #cfd8dc;}.crumb i { margin-right: .5em;}.share { padding: 0;}.share a { display: inline-block; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); min-width: 1rem; height: 2rem; border-radius: 4px; color: #333; font-size: .8rem; font-weight: 700; line-height: 2rem; text-align: center; padding: 0 .5rem;}.adj article.lism { margin-bottom: 1rem;}.adj header { font-weight: 700; font-size: .8rem;}.toc { padding: 0 2rem;}@media (max-width: 768px) { .toc { padding: 0 1rem; }}.toc { margin: 1rem 0;}.toc nav>ul { background-color: #eceff1; border-radius: 4px; display: inline-block; font-size: .8rem; padding: .5rem 1rem; word-break: break-all; list-style: none;}.toc ul { padding: 0;}.toc ul ul { padding-left: 1rem;}.toc ul ul ul { padding-left: 1rem;}.toc li { color: #90a4ae;}.toc ul ul>li { font-weight: 700; margin: .5rem 0; list-style-type: decimal;}.toc ul ul ul>li { list-style-type: disc; font-weight: 500;}.author { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); padding: 1rem; border-radius: 4px; text-align: center;}.author .author-thumb { margin: 0 auto 1rem; width: 6rem; height: 6rem; border-radius: 50%; background-color: #eceff1; background-size: cover; background-position: center;}.author .author-name { margin-bottom: .5rem; font-weight: 700;}.author .author-facts { margin-bottom: 1rem;}.author .author-facts li { display: inline;}.author .author-facts li a { display: inline-block; background-color: #eceff1; width: 1.75rem; height: 1.75rem; line-height: 1.75rem; text-align: center; color: #333; font-size: .8rem; border-radius: 2px;}.author .author-facts li a:hover { color: #fff; background-color: #333;}.author .author-description { text-align: left; font-size: .8rem;}.author .author-description p { margin: .5rem 0;}.thumb { background-image: url(https://example.com/images/default.jpg); background-size: cover; background-position: center;}
+      
+       body { font-family: Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif; } 
+       .h-logo { font-family: Lobster, cursive; } 
+    </style>
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <div class="l-container">
+        <div class="logo">
+          <a href="https://example.com/">MAGE HACK マゲハック</a>
+        </div>
+        
+<div class="description">
+  修理・改造・バックアップ
+</div>
+
+
+      </div>
+    </header>
+
+    <main>
+      <div class="l-container">
+        
+<div class="mrow">
+  <div class="mcol c8">
+
+    <article class="sn">
+
+  <div class="thumb thumb-a470a3393a5c189bfebd5e0c4a3174f6"></div>
+
+  <header class="article-header">
+    <h1 class="title">AmiiboのROMを複製する方法</h1>
+
+    <ul class="facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-15T02:25:27JST">Jun 15, 2016</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://example.com/posts/">POSTS</a></li>
+      
+    </ul>
+
+    <aside class="share">
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f&title=Amiibo%e3%81%aeROM%e3%82%92%e8%a4%87%e8%a3%bd%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f&text=Amiibo%e3%81%aeROM%e3%82%92%e8%a4%87%e8%a3%bd%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f&t=Amiibo%e3%81%aeROM%e3%82%92%e8%a4%87%e8%a3%bd%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f&title=Amiibo%e3%81%aeROM%e3%82%92%e8%a4%87%e8%a3%bd%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Amiibo%e3%81%aeROM%e3%82%92%e8%a4%87%e8%a3%bd%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+</aside>
+
+  </header>
+
+  
+
+  <div class="article-body"><div id="toc_container" class="no_bullets">
+  <p class="toc_title">
+    Contents
+  </p>
+  
+  <ul class="toc_list">
+    <li>
+      <a href="#i"><span class="toc_number toc_depth_1">1</span> チュートリアルの目的</a><ul>
+        <li>
+          <a href="#i-2"><span class="toc_number toc_depth_2">1.1</span> 注意事項</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li>
+      <a href="#i-3"><span class="toc_number toc_depth_1">2</span> 必要な物</a>
+    </li>
+    <li>
+      <a href="#i-4"><span class="toc_number toc_depth_1">3</span> 導入方法</a>
+    </li>
+    <li>
+      <a href="#FAQ"><span class="toc_number toc_depth_1">4</span> 困ったときのFAQ</a><ul>
+        <li>
+          <a href="#QTagMo"><span class="toc_number toc_depth_2">4.1</span> Q.TagMoの画面が動画内のと違うのですが…</a>
+        </li>
+        <li>
+          <a href="#QNFC"><span class="toc_number toc_depth_2">4.2</span> Q.NFCタグを端末にかざしても何も起きません。</a>
+        </li>
+        <li>
+          <a href="#QAPK"><span class="toc_number toc_depth_2">4.3</span> Q.APKをインストールしようとすると「インストールはブロックされました」などと­­出てインストールできません。</a>
+        </li>
+        <li>
+          <a href="#QAmiiboNTAG215Amiibo"><span class="toc_number toc_depth_2">4.4</span> Q.一度Amiiboを書き込んだNTAG215を他のAmiiboに変えられますか­­。</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<h3 id="span-id-i-チュートリアルの目的-span"><span id="i">チュートリアルの目的</span></h3>
+
+<p>人形の部分では無く、データーの部分の作成です。</p>
+
+<p>バックアップ目的など激安(1枚100円以下程度)で作成できます。</p>
+
+<h4 style="padding-left: 30px;">
+  <span id="i-2">注意事項</span>
+</h4>
+
+<p style="padding-left: 30px;">
+  Amiiboのbinファイルを落としてくる行為はやめましょう。必ず自分のAmiiboで行って下さい。
+</p>
+
+<p></p>
+
+<h3 id="span-id-i-3-必要な物-span"><span id="i-3">必要な物</span></h3>
+
+<ul>
+<li>NFC対応のAndroidデバイス</li>
+<li>NTAG215（海外輸入やヤフオク等で購入して下さい。）</li>
+<li>コピー元のAmiiboのbinファイル（動画中STEP2でダンプ方法を紹介しま<wbr />­­す。）</li>
+
+<li><p>TagMo.zip (下のリンクなどからご自身でお探し下さい。）</p>
+
+<p><a class=" yt-uix-sessionlink " href="https://www.youtube.com/watch?v=x4C0FRQZ7Xc" target="_blank" rel="nofollow" data-url="https://www.youtube.com/watch?v=x4C0FRQZ7Xc" data-sessionlink="itct=CC4Q6TgiEwjInMeZ_KjNAhWLHVgKHUNaAQko-B0"><a href="https://www.youtube.com/watch?v=x4C0F&amp;#8230">https://www.youtube.com/watch?v=x4C0F&amp;#8230</a>;</a></p></li>
+
+<li><p>ESファイルエクスプローラー（Playストアで検索してインストールして下さい。<wbr />­­）</p></li>
+</ul>
+
+<p>前提条件</p>
+
+<ul>
+<li>ESファイルエクスプローラーをインストールしていること。</li>
+</ul>
+
+<h3 id="span-id-i-4-導入方法-span"><span id="i-4">導入方法</span></h3>
+
+<ol>
+<li>TagMo.zipをダウンロード</li>
+<li>TagMo.apkをインストール</li>
+<li>TagMoにストレージ権限を与え、Keyファイルを読み込ませる</li>
+<li>コピー元のAmiiboを「Scan tag to file」からダンプ</li>
+<li>「Load tag file」から書き込みたいbinファイルを選択</li>
+<li>「Write to tag (Auto)」から空のタグに書き込む</li>
+</ol>
+
+<p>★詳しい解説は動画をご覧下さい。</p>
+
+<h3 id="span-id-faq-困ったときのfaq-span"><span id="FAQ">困ったときのFAQ</span></h3>
+
+<h4 style="padding-left: 30px;">
+  <span id="QTagMo">Q.TagMoの画面が動画内のと違うのですが…</span>
+</h4>
+
+<p style="padding-left: 60px;">
+  A.TagMoのAPKをTagMo2.1に差し替えてみて下さい。<br /> <a class=" yt-uix-servicelink " href="https://drive.google.com/file/d/0BwV_DUnv_6kxVkJLRFpfaU9aNTQ/view?usp=sharing" target="_blank" rel="nofollow" data-servicelink="CC4Q6TgiEwjInMeZ_KjNAhWLHVgKHUNaAQko-B0" data-url="https://drive.google.com/file/d/0BwV_DUnv_6kxVkJLRFpfaU9aNTQ/view?usp=sharing">https://drive.google.com/file/d/0BwV_&#8230;</a>
+</p>
+
+<h4 style="padding-left: 30px;">
+  <span id="QNFC">Q.NFCタグを端末にかざしても何も起きません。</span>
+</h4>
+
+<p style="padding-left: 60px;">
+  A.まずは、その端末が本当にNFC対応か確認して下さい。「＜端末名＞ NFC」などで検索してみて下さい。<br /> 対応している場合は、設定アプリを開き、無線とネットワークの「その他の設定」や「も<wbr />­­っと見る」を選択してください。<br /> その画面からNFCを利用可能に設定できると思います。<br /> （端末によって名称がまちまちなので実際に行って確認してみてください。）
+</p>
+
+<h4 style="padding-left: 30px;">
+  <span id="QAPK">Q.APKをインストールしようとすると「インストールはブロックされました」などと<wbr />­­出てインストールできません。</span>
+</h4>
+
+<p style="padding-left: 60px;">
+  <span style="line-height: 1.5;">A.設定アプリを開きセキュリティから「提供元不明のアプリ」のインストールを許可し</span><wbr style="line-height: 1.5;" /><span style="line-height: 1.5;">­­てください。</span>
+</p>
+
+<p style="padding-left: 60px;">
+  （端末によって名称や設定方法が違うことがあります。）
+</p>
+
+<h4 style="padding-left: 30px;">
+  <span id="QAmiiboNTAG215Amiibo">Q.一度Amiiboを書き込んだNTAG215を他のAmiiboに変えられますか<wbr />­­。</span>
+</h4>
+
+<p style="padding-left: 60px;">
+  A.NTAG215にクローンするこの方法は、元のAmiiboと同じ状態のタグを作<wbr />­­成します。<br /> Amiiboを一度書き込むとNTAG215の一部がロックされるため、別の種類のA<wbr />­­miiboを上書きすることは出来ません。<br /> しかし、書き込んだbinのデータを改造することにより、チートすることは出来ます。<wbr />­­例えば、スマブラでAmiiboのレベルを50Lvにするなどです。
+</p></div>
+
+  <footer class="article-footer">
+
+    <aside class="share">
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f&title=Amiibo%e3%81%aeROM%e3%82%92%e8%a4%87%e8%a3%bd%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f&text=Amiibo%e3%81%aeROM%e3%82%92%e8%a4%87%e8%a3%bd%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f&t=Amiibo%e3%81%aeROM%e3%82%92%e8%a4%87%e8%a3%bd%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f&title=Amiibo%e3%81%aeROM%e3%82%92%e8%a4%87%e8%a3%bd%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Amiibo%e3%81%aeROM%e3%82%92%e8%a4%87%e8%a3%bd%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fexample.com%2famiibo%25E3%2581%25AErom%25E3%2582%2592%25E8%25A4%2587%25E8%25A3%25BD%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+</aside>
+
+
+    <section class="footer">
+      <div>
+        <nav class="crumb">
+          <ol>
+            <li><a href="https://example.com/"><i class="fa fa-home" aria-hidden="true"></i>TOP</a></li>
+            
+            <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://example.com/posts/" itemprop="url"><span itemprop="title">POSTS</span></a></li>
+            
+            <li class="active">AmiiboのROMを複製する方法</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="https://example.com/categories/">CATEGORIES</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="https://example.com/categories/3ds/">3DS</a></li>
+          
+          <li><a href="https://example.com/categories/amiibo/">Amiibo</a></li>
+          
+          <li><a href="https://example.com/categories/wiiu/">WiiU</a></li>
+          
+          <li><a href="https://example.com/categories/%E6%94%B9%E9%80%A0/">改造</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="https://example.com/tags/">TAGS</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="https://example.com/tags/3ds/">3ds</a></li>
+          
+          <li><a href="https://example.com/tags/wiiu/">WiiU</a></li>
+          
+          <li><a href="https://example.com/tags/%E7%84%A1%E6%96%99/">無料</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    <div class="adj">
+      <div class="mrow">
+        
+        <div class="mcol c6">
+          <header>Previous Article</header>
+          <article class="lism">
+  <a href="https://example.com/amiibo%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%83%BC%E6%94%B9%E9%80%A0%E6%96%B9%E6%B3%95/">
+    <div class="thumb thumb-f698a0a8d461b217589707cf746672fe"></div>
+
+    <div class="inner">
+      <div class="title">Amiiboのデーター改造方法</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-14T14:20:58JST">Jun 14, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POSTS</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+        </div>
+        
+        
+        <div class="mcol c6">
+          <header>Next Article</header>
+          <article class="lism">
+  <a href="https://example.com/%E4%BF%AE%E7%90%86%E8%BE%9E%E5%85%B8%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%81%AE%E8%89%B2%E3%81%8C%E8%96%84%E3%81%84/">
+    <div class="thumb thumb-743ef2378c7e0515af2572cb1221baf2"></div>
+
+    <div class="inner">
+      <div class="title">【修理辞典】キャラクターの色が薄い（茶色っぽい）</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-15T14:52:35JST">Jun 15, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POSTS</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+        </div>
+        
+      </div>
+    </div>
+
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "XYW" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+  <div class="mcol c4">
+    <aside class="l-sidebar">
+
+  <div class="sections sidebar">
+    
+<section class="sidebar">
+  <header>AUTHOR</header>
+  <div>
+    <div class="author">
+      
+      <div class="author-thumb" style="background-image: url(https://example.com/images/author.jpg);"></div>
+      
+      <div class="author-name">John Doe</div>
+      <ul class="author-facts">
+        <li><a href="https://www.facebook.com/daisuke.tsuji.735" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/dim0627" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/dim0627" rel="nofollow" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+      </ul>
+      <div class="author-description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p><p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="sidebar">
+  <header>LATESTS</header>
+  <div>
+    <div class="articles sm">
+      
+      <article class="lism">
+  <a href="https://example.com/%E7%84%A1%E6%96%99%E3%81%A73ds%E3%81%A8%E3%81%B3%E3%81%A0%E3%81%9B%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE%E6%94%B9%E9%80%A0%E3%83%84%E3%83%BC%E3%83%AB%E6%97%A5%E6%9C%AC/">
+    <div class="thumb thumb-023c8deb7e3ea7cf3ba8c018a73d48ac"></div>
+
+    <div class="inner">
+      <div class="title">無料で3DSとびだせどうぶつの森改造ツール：日本語化ハックの使い方</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-19T23:29:42JST">Jun 19, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POSTS</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://example.com/%E3%82%AA%E3%82%AF%E6%88%A6%E8%A1%93%E4%BC%9D%E8%AA%AC%E3%81%AE%E9%BB%92%E3%83%90%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E8%B2%A9%E5%A3%B2%E3%81%97%E3%81%A6/">
+    <div class="thumb thumb-613743498ae515dd9817aa9e9381652e"></div>
+
+    <div class="inner">
+      <div class="title">【オク戦術】伝説の黒バーミンを作って販売してみた</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-18T06:45:18JST">Jun 18, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POSTS</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://example.com/%E3%82%AA%E3%82%AF%E6%88%A6%E8%A1%93%E5%86%99%E7%9C%9F%E3%81%AE%E6%92%AE%E3%82%8A%E6%96%B9%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7%E5%85%A8%E3%81%8F%E9%81%95%E3%81%86%E5%8D%B0%E8%B1%A1/">
+    <div class="thumb thumb-c9a0376caaebfb15f1f85389cd153830"></div>
+
+    <div class="inner">
+      <div class="title">【オク戦術】写真の撮り方ひとつで全く違う印象に</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-18T05:52:04JST">Jun 18, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POSTS</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://example.com/%E3%82%AA%E3%82%AF%E6%94%BB%E7%95%A5%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA%E9%81%95%E3%81%84%E3%81%AE%E5%87%BA%E5%93%81%E3%82%92%E7%8B%99%E3%81%86/">
+    <div class="thumb thumb-5da80455fea5255f8ce3032544d3d620"></div>
+
+    <div class="inner">
+      <div class="title">【オク攻略】カテゴリ違いの出品を狙う</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-17T22:40:51JST">Jun 17, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POSTS</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://example.com/%E3%82%AA%E3%82%AF%E6%94%BB%E7%95%A52%E5%80%8B%E3%81%8B%E3%82%891%E5%80%8B%E3%82%92%E4%BD%9C%E3%82%8B/">
+    <div class="thumb thumb-b907e4798c3bcb3d35ba02a6c94441df"></div>
+
+    <div class="inner">
+      <div class="title">【オク攻略】2個から1個を作る</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-17T22:37:51JST">Jun 17, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POSTS</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://example.com/owner/">
+    <div class="thumb thumb-a7a62bbc3727deb81fa0552ff2364fc7"></div>
+
+    <div class="inner">
+      <div class="title">運営者情報</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-17T14:18:19JST">Jun 17, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>OWNER</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://example.com/about/">
+    <div class="thumb thumb-8576ec274c98b3831668a172fa632d80"></div>
+
+    <div class="inner">
+      <div class="title">サイトについて</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-17T13:54:35JST">Jun 17, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>ABOUT</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://example.com/%E4%BF%AE%E7%90%86%E8%BE%9E%E5%85%B8%E7%94%BB%E9%9D%A2%E5%86%85%E3%81%AB%E9%BB%92%E3%81%84%E9%83%A8%E5%88%86%E3%81%8C%E3%81%82%E3%82%8B%E3%82%82%E3%81%AE/">
+    <div class="thumb thumb-629b920a059a2af361a6a4c86c7eac16"></div>
+
+    <div class="inner">
+      <div class="title">【修理辞典】電源が入っていない状態で画面内に黒い部分があるもの</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-17T05:11:45JST">Jun 17, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POSTS</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://example.com/introduce/">
+    <div class="thumb thumb-55a025038106160677670518819947a1"></div>
+
+    <div class="inner">
+      <div class="title">ハック情報一覧</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-16T10:07:50JST">Jun 16, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>INTRODUCE</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+      <article class="lism">
+  <a href="https://example.com/%E4%BF%AE%E7%90%86%E8%BE%9E%E5%85%B8%E6%AE%8B%E5%BF%B5%E3%81%AA%E3%81%8C%E3%82%89%E7%9B%B4%E3%81%9B%E3%81%AA%E3%81%84%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%A8%E3%81%AF/">
+    <div class="thumb thumb-64f803262ef5b727418f2cb957275072"></div>
+
+    <div class="inner">
+      <div class="title">【修理辞典】残念ながら直せないゲームとは</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-06-16T04:35:23JST">Jun 16, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POSTS</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+      
+    </div>
+  </div>
+</section>
+
+    
+<section class="sidebar">
+  <header>CATEGORIES</header>
+  <div>
+    <ul class="terms">
+      <li><a href="https://example.com/categories/%E3%82%B1%E3%83%BC%E3%82%B9%E5%88%A5%E3%81%AB%E8%A6%8B%E3%82%8B%E4%BF%AE%E7%90%86%E6%8A%80">ケース別に見る修理技 <span class="count">(8)</span></a></li><li><a href="https://example.com/categories/%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%AA%E3%83%83%E3%83%81">ゲームウオッチ <span class="count">(6)</span></a></li><li><a href="https://example.com/categories/3ds">3ds <span class="count">(2)</span></a></li><li><a href="https://example.com/categories/amiibo">amiibo <span class="count">(2)</span></a></li><li><a href="https://example.com/categories/wiiu">wiiu <span class="count">(2)</span></a></li><li><a href="https://example.com/categories/%E3%82%AA%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E9%83%A8%E5%93%81%E5%8F%96%E3%82%8A%E8%B3%BC%E5%85%A5%E8%A1%93">オークション部品取り購入術 <span class="count">(2)</span></a></li><li><a href="https://example.com/categories/%E3%82%AA%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E9%AB%98%E5%80%A4%E8%B2%A9%E5%A3%B2%E6%88%A6%E7%95%A5">オークション高値販売戦略 <span class="count">(2)</span></a></li><li><a href="https://example.com/categories/%E3%81%A8%E3%81%B3%E3%81%A0%E3%81%9B%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE">とびだせどうぶつの森 <span class="count">(1)</span></a></li><li><a href="https://example.com/categories/%E4%BF%AE%E7%90%86%E3%81%8C%E5%9B%B0%E9%9B%A3%E3%81%AA%E3%82%B1%E3%83%BC%E3%82%B9">修理が困難なケース <span class="count">(1)</span></a></li><li><a href="https://example.com/categories/%E6%94%B9%E9%80%A0">改造 <span class="count">(1)</span></a></li>
+    </ul>
+  </div>
+</section>
+
+
+
+    
+<section class="sidebar">
+  <header>TAGS</header>
+  <div>
+    <ul class="terms">
+      <li><a href="https://example.com/tags/%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A2%E3%83%B3%E3%83%89%E3%82%A6%E3%82%AA%E3%83%83%E3%83%81">ゲームアンドウオッチ <span class="count">(11)</span></a></li><li><a href="https://example.com/tags/%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%AA%E3%83%83%E3%83%81">ゲームウオッチ <span class="count">(11)</span></a></li><li><a href="https://example.com/tags/%E4%BF%AE%E7%90%86">修理 <span class="count">(11)</span></a></li><li><a href="https://example.com/tags/%E3%83%A4%E3%83%95%E3%82%AA%E3%82%AF">ヤフオク <span class="count">(4)</span></a></li><li><a href="https://example.com/tags/3ds">3ds <span class="count">(3)</span></a></li><li><a href="https://example.com/tags/%E7%84%A1%E6%96%99">無料 <span class="count">(3)</span></a></li><li><a href="https://example.com/tags/wiiu">wiiu <span class="count">(2)</span></a></li><li><a href="https://example.com/tags/%E8%B2%A9%E5%A3%B2">販売 <span class="count">(2)</span></a></li><li><a href="https://example.com/tags/%E3%81%A8%E3%81%B3%E3%81%A0%E3%81%9B%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE">とびだせどうぶつの森 <span class="count">(1)</span></a></li><li><a href="https://example.com/tags/%E9%BB%92%E3%83%90%E3%83%BC%E3%83%9F%E3%83%B3">黒バーミン <span class="count">(1)</span></a></li>
+    </ul>
+  </div>
+</section>
+
+
+
+  </div>
+
+</aside>
+
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="l-container">
+        <p><span class="h-logo">&copy; MAGE HACK マゲハック</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_robust">Robust</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

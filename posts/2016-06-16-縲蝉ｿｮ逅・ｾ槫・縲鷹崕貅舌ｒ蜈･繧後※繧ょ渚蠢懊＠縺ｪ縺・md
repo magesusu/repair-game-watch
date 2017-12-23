@@ -1,0 +1,119 @@
+---
+title: 【修理辞典】電源を入れても反応(起動)しない
+author: magesusu
+type: post
+date: 2016-06-16T04:09:24+00:00
+url: /【修理辞典】電源を入れても反応しない
+featured_image: /wp-content/uploads/2016/06/ilovepdf_com-17.jpg
+views:
+  - 304
+snapTW:
+  - 's:176:"a:1:{i:0;a:5:{s:12:"rpstPostIncl";s:7:"nxsi0tw";s:11:"isPrePosted";s:1:"1";s:8:"isPosted";s:1:"1";s:4:"pgID";s:18:"773026981449302017";s:5:"pDate";s:19:"2016-09-06 05:16:09";}}";'
+categories:
+  - ケース別に見る修理技
+  - ゲームウオッチ
+tags:
+  - ゲームアンドウオッチ
+  - ゲームウオッチ
+  - 修理
+
+---
+<div class="wc-shortcodes-row wc-shortcodes-item wc-shortcodes-clearfix">
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-one-third wc-shortcodes-column-first ">
+    <p>
+      <a href="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-17.jpg"><img class="aligncenter wp-image-125 size-medium" src="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-17-300x226.jpg?fit=300%2C226" alt="ilovepdf_com-17" srcset="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-17.jpg?resize=300%2C226 300w, //magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-17.jpg?w=433 433w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+    </p>
+  </div>
+  
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-two-third wc-shortcodes-column-last ">
+    <p>
+      ①電池を入れっぱなしで過放電となり液漏れをおこして接点が腐食した。
+    </p>
+    
+    <p>
+      ②サイズちがいの電池を入れて金具がつぶれた。
+    </p>
+    
+    <p>
+      どちらかの可能性が高いです。
+    </p>
+  </div>
+</div>
+
+<!--more-->
+
+### 長い間遊ばないときは、電池ぐらい外しておいてよ…
+
+<p style="padding-left: 30px;">
+  オークションで「動作確認がとれていません」等と記載されているものは、本当に動作確認して動かないものと、本当にノーチェックのものと両方考えられます。
+</p>
+
+<p style="padding-left: 30px;">
+  そのまま電源がはいれば「ラッキー」ぐらいに（結構そんなこともしばしば）思っておきましょう。
+</p>
+
+<p style="padding-left: 30px;">
+  中には、数十年前のものと思われる電池が電池フタをあけたとたん、粉が舞う（液漏れのひどい状態）ものもありました。
+</p>
+
+<p style="padding-left: 30px;">
+  これでは電池を入れ替えただけではまず動きません。
+</p>
+
+<p style="padding-left: 30px;">
+  恐らく、電池を入れっぱなしで過放電となり液漏れをおこして電池の接点が腐食してしまったのでしょう。
+</p>
+
+<p style="padding-left: 30px;">
+  また、厚みの違う電池（ゲームウオッチには機種により薄いＬＲ４３と厚みのあるＬＲ４４の二種類）を間違って（または無理やり？）入れたために、金具がつぶれてしまい、正規の規格の電池では接触不良をおこしてしまっている場合もあります。
+</p>
+
+<p style="padding-left: 30px;">
+  この２つのうち、どちらかが原因になっている事がほとんどです。少なくとも私は、どちらかしか見たことがありません。
+</p>
+
+### 液漏れの修復法。キレイでもテスターを当てよう！
+
+<p style="padding-left: 30px;">
+  液漏れをおこしているものは、とにかく接点の金具を折らないように紙ヤスリ等でこすって通電できるようにします。
+</p>
+
+<p style="padding-left: 30px;">
+  注意してほしいのは、見た目はきれいであっても、接点が経年劣化で通電できない状態になっている場合もあることです。
+</p>
+
+<p style="padding-left: 30px;">
+  簡単にあきらめずに、次の図のように、テスターを使用して電圧（Ｖ）を測定しながら少しずつ導通の確認をして、接点を磨く作業をする事をおすすめします。
+</p>
+
+<div class="wc-shortcodes-row wc-shortcodes-item wc-shortcodes-clearfix">
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-one-half wc-shortcodes-column-first ">
+    <div id="attachment_126" style="width: 310px" class="wp-caption aligncenter">
+      <a href="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-18.jpg"><img class="wp-image-126 size-medium" src="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-18-300x224.jpg?fit=300%2C224" alt="▲Ａにボタン電池を押し入れて、 1.5V付近でテスターが反応すればOK" srcset="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-18.jpg?resize=300%2C224 300w, //magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-18.jpg?w=479 479w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+      
+      <p class="wp-caption-text">
+        ▲Ａにボタン電池を押し入れて、<br /> 1.5V付近でテスターが反応すればOK
+      </p>
+    </div>
+  </div>
+  
+  <div class="wc-shortcodes-column wc-shortcodes-content wc-shortcodes-one-half wc-shortcodes-column-last ">
+    <div id="attachment_127" style="width: 310px" class="wp-caption aligncenter">
+      <a href="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-19.jpg"><img class="wp-image-127 size-medium" src="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-19-300x225.jpg?fit=300%2C225" alt="▲Ｂにボタン電池を押し入れて、 1.5V付近でテスターが反応すればOK" srcset="//magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-19.jpg?resize=300%2C225 300w, //magesusu.github.io/repair-game-watch/src/2016/06/ilovepdf_com-19.jpg?w=479 479w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+      
+      <p class="wp-caption-text">
+        ▲Ｂにボタン電池を押し入れて、<br /> 1.5V付近でテスターが反応すればOK
+      </p>
+    </div>
+  </div>
+</div>
+
+### 金具が潰れているなら、起こそう！
+
+<p style="padding-left: 30px;">
+  単なる接触不良の場合は、金具を電池に密着できるよう金具を細いマイナスドライバーなどで起こしてあげるとよいでしょう。
+</p>
+
+<p style="padding-left: 30px;">
+  力を入れすぎて金具を折らないよう、十分ご注意下さい。
+</p>
