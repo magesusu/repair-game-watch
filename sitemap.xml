@@ -88,14 +88,14 @@
   </url>
   
   <url>
-    <loc>https://example.com/categories/3ds/</loc>
-    <lastmod>2016-06-15T02:25:27+00:00</lastmod>
+    <loc>https://example.com/tags/3ds/</loc>
+    <lastmod>2016-06-19T23:29:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/3ds/</loc>
-    <lastmod>2016-06-19T23:29:42+00:00</lastmod>
+    <loc>https://example.com/categories/3ds/</loc>
+    <lastmod>2016-06-15T02:25:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -148,25 +148,25 @@
   </url>
   
   <url>
-    <loc>https://example.com/categories/wiiu/</loc>
-    <lastmod>2016-06-15T02:25:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://example.com/tags/wiiu/</loc>
     <lastmod>2016-06-15T02:25:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/%E3%81%A8%E3%81%B3%E3%81%A0%E3%81%9B%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE/</loc>
-    <lastmod>2016-06-19T23:29:42+00:00</lastmod>
+    <loc>https://example.com/categories/wiiu/</loc>
+    <lastmod>2016-06-15T02:25:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://example.com/tags/%E3%81%A8%E3%81%B3%E3%81%A0%E3%81%9B%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE/</loc>
+    <lastmod>2016-06-19T23:29:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/%E3%81%A8%E3%81%B3%E3%81%A0%E3%81%9B%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%81%AE%E6%A3%AE/</loc>
     <lastmod>2016-06-19T23:29:42+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -196,14 +196,14 @@
   </url>
   
   <url>
-    <loc>https://example.com/categories/%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%AA%E3%83%83%E3%83%81/</loc>
-    <lastmod>2016-06-16T04:35:23+00:00</lastmod>
+    <loc>https://example.com/tags/%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%AA%E3%83%83%E3%83%81/</loc>
+    <lastmod>2016-06-18T06:45:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%AA%E3%83%83%E3%83%81/</loc>
-    <lastmod>2016-06-18T06:45:18+00:00</lastmod>
+    <loc>https://example.com/categories/%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%AA%E3%83%83%E3%83%81/</loc>
+    <lastmod>2016-06-16T04:35:23+00:00</lastmod>
     <priority>0</priority>
   </url>
   
